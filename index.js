@@ -4,10 +4,19 @@ function theBeatlesPlay(musicians, instruments){
 
   for (i=0;i<musicians.length;i++){
     if (i===0){
-      var array = [musicians[i] + " plays " + instruments[i] +" ."];
+      var array = [musicians[i] + " plays " + instruments[i]];
     } else {
-      array = [...array, musicians[i] + " plays " + instruments[i] +" ."];
+      array = [...array, musicians[i] + " plays " + instruments[i]];
     }
   }
   return array;
+}
+
+function johnLennonFacts(facts){
+  let i =
+
+  while (facts.length !== undefined){
+    facts = [...facts + "!!!"];
+  }
+  return facts;
 }
